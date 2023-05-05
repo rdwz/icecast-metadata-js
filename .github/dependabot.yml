@@ -9,3 +9,27 @@ updates:
     directory: "/src/demo" # Location of package manifests
     schedule:
       interval: "weekly"
+      
+  - package-ecosystem: "npm"
+    # Files stored in `app` directory
+    directory: "/icecast-metadata-js"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm"
+    # Files stored in `app` directory
+    directory: "/icecast-metadata-player"
+    schedule:
+      interval: "weekly"
+      
+  - package-ecosystem: "npm"
+    # Files stored in `app` directory
+    directory: "/icecast-metadata-stats"
+    schedule:
+      interval: "weekly"
+
+  - package-ecosystem: "npm"
+    # Files stored in `app` directory
+    directory: "/icecast-metadata-recorder"
+    schedule:
+      interval: "weekly"
